@@ -1,0 +1,36 @@
+1. Declare a string variable and initialize it to “yes”. If the string is equal to yes, print “happy” otherwise print
+“sad”. Then print "Wednesday".
+string happy = "yes"
+if( happy.equals("yes")){
+jOptionPane.showMessageDialog(null,"happy")
+}
+else{
+jOptionPane.showMessageDialog(null,"sad")
+
+
+
+What happense if you set the string variable to "no"? 
+2. Declare an int variable to hold your age and initialize its value. If you are under 20, print “It’s so great being
+young”, otherwise print “Don’t you wish you were young!”
+int Age = 14
+if(age.equals("14")){
+jOptionPane.showMessageDialog(null, "It's so great being young!")
+}
+else{
+jOptionPane.showMessageDialog(null, Don't you wish you were young!")
+
+
+3. Make an input pop­up to ask the user which animal they like. If the user types “dog”, print “Dogs go woof”,
+otherwise if they type “cat”, print “Cats go meow” ....and so on with other animals. If you do not have code for
+the animal they type, print “I don’t know that animal.”
+string animal = jOptionPane.showInputDialog(null, "Which animal do you prefer? Dogs, or Cats?")
+
+
+if(animal.equals("dog")){
+jOptionPane.showMessageDialog(null, "Dogs go woof!")
+}
+if(animal.equals("cat")){
+jOptionPane.showMessageDialog(null, "Cats go meow!")
+}
+else{ 
+jOptionPane.showMessageDialog(null," I don't know that animal!")
